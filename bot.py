@@ -30,7 +30,7 @@ get_hack_keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True).add(
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
     await message.answer_photo(
-        photo=open("welcome.jpg", "rb"),
+        photo=open("https://graph.org/file/982bab0629be562a3fda6-8198f4c864382db4d1.jpg", "https://graph.org/file/982bab0629be562a3fda6-8198f4c864382db4d1.jpg"),
         caption="🔔 Pehle channel join karein, phir continue karein.",
         reply_markup=join_channel_keyboard
     )
